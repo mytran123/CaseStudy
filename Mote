@@ -1,0 +1,11 @@
+-Tạo note.sql
+-Tạo Class DB/Database/Model có 3 tham số private (contruct va connect-PDO) để truy vấn
+-Tạo Class NoteModel/Model (include DB) Có 2 tham số private trỏ đến connect.
+ + lấy dữ liệu toàn bộ bảng getAll (truy vấn $sql và $stmt)
+ + lấy dữ liệu từ id nên getById($id) (truy vấn $sql và $stmt)
+-Tạo index (include NoteModel) có HTML (thead va tbody)
+chạy thử
+-Tạo note-detail để đó
+-Thêm nút detail bằng thẻ <a> (cẩn thận các dấu)
+chạy thử
+-Thao tác với note-detail (include NoteModel)

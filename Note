@@ -1,0 +1,17 @@
+Để kết nối PHP với MySQL dùng thư viện của PHP
+-mysqli: chỉ dùng với mysql
+-PDO(PHP Data Object): dùng với nhiều loại DB
+
+Để kết nối đến CSDL cần các tham số
+-Data Source Name
+-Username
+-Password
+
+-Tạo MVC
+- Tạo App (M-V-C)
+- Model/database/Class DB: lưu cổng kết nối
+- Model/Class BaseModel: lấy dữ liệu từ DB / lấy giữ liệu getAll từ cổng kết nối / công thức tổng quát sản phẩm (tạo,xóa) (ko nên làm create)
+- Model/Class ProductModel: lấy dữ liệu từ DB và <kế thừa BaseModel> / tạo sản phẩm create trong này
+- Tạo index (first to show product then we can show anything)
+- Tạo View / dùng HTML
+- Tạo Controller
