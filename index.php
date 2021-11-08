@@ -34,7 +34,7 @@ $notes = $noteModel->getAll();
                 <td><?php echo $note["title"]?></td>
                 <td><?php echo $note["content"]?></td>
                 <td><?php echo $note["type_id"]?></td>
-                <td><a href="">Detail</a></td>
+                <td><a href="note-detail.php?id=<?php echo $note["id"]?>">Detail</a></td>
             </tr>
         <?php endforeach;?>
     </tbody>
